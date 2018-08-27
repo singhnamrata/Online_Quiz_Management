@@ -1,0 +1,122 @@
+/* CSS Document */
+
+body {
+	background: #2980b9;
+	font-size:18px;
+	line-height: 32px;
+	color: #FFF;
+	word-wrap:break-word !important;
+	font-family: 'Open Sans', sans-serif;
+	}
+
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	color: #FFF;
+}	
+
+h3 {
+	font-size: 30px;
+	text-align: center;
+	color: #FFF;
+}
+
+h3 a {
+	color: #FFF;
+}
+
+a {
+	color: #FFF;
+}
+
+
+#container {
+	width:70%;
+	margin:0 auto;
+	font-size:20px;
+	line-height:33px;
+	}
+
+#content {
+	padding: 20px;
+}
+
+nav {
+background-color:#64abfb;
+display: block;
+max-width:100%;
+clear: both;
+}
+
+nav li {
+list-style:none !important;
+color:#FFF;
+padding:10px;
+font-size:20px;
+text-decoration:none;
+display: inline-block;
+}
+
+nav li a {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	}
+ 
+nav ul {
+padding:0;
+margin:0;
+}
+ 
+nav ul li {
+list-style: none;
+line-height:44px;
+background-color:#64abfb;
+}
+ 
+nav ul li a {
+color:#FFF;
+padding:10px;
+font-size:20px;
+text-decoration:none;
+}
+ 
+li a:hover {
+border-bottom:3px #FFF solid;
+}
+nav ul li ul { display:none; } /* Makes the Dropdown menu Hidden by default */
+ 
+nav ul li:hover ul { /* Displayes the dropNav when Hovered over the nav item with the .drop class */
+z-index:99999;
+display:list-item !important;
+position:absolute;
+margin-top:5px;
+margin-left:-10px;
+}
+ 
+nav ul li:hover ul li {
+float:none;
+}
+
+li > a:after { content: ' »'; } /* Change this in order to change the Dropdown symbol */
+ 
+li > a:only-child:after { content: ''; }
+
+.active {
+	background-color:#2980b9;
+	}
+
+#relatedContent {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+#relatedContent .item {
+  max-width: 44%;
+  padding: 3%;
+  float: left;
+  text-align: center;
+}
+
+#relatedContent .item a img {
+  max-width: 100%;
+}		
